@@ -1,0 +1,19 @@
+try 1:
+  text cleaning:
+    text = re.sub(r"http\S+", "", text)
+    text = text.lower() # lowercase text
+    text = REPLACE_BY_SPACE_RE.sub(' ', text) # replace REPLACE_BY_SPACE_RE symbols by space in text. substitute the matched string in REPLACE_BY_SPACE_RE with space.
+    text = BAD_SYMBOLS_RE.sub('', text) # remove symbols which are in BAD_SYMBOLS_RE from text. substitute the matched string in BAD_SYMBOLS_RE with nothing. 
+    text = re.sub('\d+', '', text)
+    text = ' '.join(word for word in text.split() if word not in STOPWORDS) # remove stopwors from text
+    text = ' '.join(word for word in text.split() if len(word) > 3) # remove stopwors from text 
+  parameters:
+    MAX_NB_WORDS = 50000
+    MAX_SEQUENCE_LENGTH = 250
+    EMBEDDING_DIM = 100
+    Epochs = 3
+    Batchsize = 64
+  results:
+    Found 827822 unique tokens.
+    Loss: 0.378
+    Accuracy: 0.530
