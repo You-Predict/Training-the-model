@@ -89,8 +89,11 @@ Epoch 3/3
 try 3 : 
  
  
+As try 3 except the batch size equal to 64 
+ Acuurcy on trainig data set : 
 
  
+ Acuurcy on test data set : 
 
   
  
