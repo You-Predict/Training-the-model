@@ -158,4 +158,30 @@ Test data :
   Accuracy: 0.577
 
 
+ -------------------------------------------------------------------
  
+ try 5 : 
+
+ Nimber of records = 370 000 
+ text cleaning:
+  1- links_email_remover
+  2- clean_text
+  3- lemmatize
+  4- stopwords_remover
+  5- number_removedr
+  
+ parameters:
+  1- MAX_NB_WORDS = 500 000
+  2- MAX_SEQUENCE_LENGTH = 500
+  3- EMBEDDING_DIM = 100
+  4- Epochs = 3
+  5- Batchsize = 265
+  
+  result :
+   1- Found 665338 unique tokens after applied lemma
+   2- Found ** unique tokens befor applied lemma
+
+
+  
+ 
+  
