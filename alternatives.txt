@@ -106,7 +106,7 @@ Epoch 3/3
   Accuracy: 0.570
  
 ***********************************************************************
-  As try 3 except the batch size = 64 & MAX_SEQUENCE_LENGTH = 500
+  As try 3 except the batch size = 64 & MAX_SEQUENCE_LENGTH = 250
  
  Beffor lemma
  Acuurcy on trainig data set : 
