@@ -90,12 +90,20 @@ try 3 :
  
  
 As try 3 except the batch size equal to 64 
- Acuurcy on trainig data set : 
 
+Beffor lemma
+ Acuurcy on trainig data set : 
+Epoch 1/3
+1266/1266 [==============================] - 798s 618ms/step - loss: 0.3776 - accuracy: 0.5777 - val_loss: 0.3532 - val_accuracy: 0.5829
+Epoch 2/3
+1266/1266 [==============================] - 812s 642ms/step - loss: 0.3366 - accuracy: 0.6092 - val_loss: 0.3510 - val_accuracy: 0.5780
+Epoch 3/3
+1266/1266 [==============================] - 804s 635ms/step - loss: 0.3002 - accuracy: 0.6623 - val_loss: 0.3654 - val_accuracy: 0.5677
  
  Acuurcy on test data set : 
 
-  
+   Loss: 0.365
+  Accuracy: 0.570
  
 
   
