@@ -55,6 +55,22 @@ You can open Data_Exploration file for more visualization about the data
 <p>Preprocessing is important into transitioning raw data into a more desirable format. Undergoing the preprocessing process can help to get more accuracy in the prediction</p>
 <p>In this section we will look at basic pre-processing of text data that must be done in order to make our data ready to be used as an input into our LSTM model</p>
 
+<h6>Here, the first step was to merge the app name and description into one field called text (becuse we need a sequence of text for lstm model)</h6>
+<h6> Then we cleaning the text, using multiple methods </h6>
+<ul>
+<li>Cleaning the text through remove the numbers, symbols and convert to lower case </li>
+<li>Remove the links in the text,including the link that does not have a protocol like facebook.com</li>
+<li>Remove the stop words from the text e.g. the,of,on,with, etc..</li>
+<li>stemming the word by reducing the word to its core root e.g. the words ending with “ed”, or “ing”</li>
+<li> Lemmatization is closely related to stemming. 
+    It goes a steps further by linking words with similar meaning to one word.
+    e.g. better -> good / was -> be </li>
+  <li> Remove the words that contains numbers or symbols</li>
+
+</ul>
+
+
+
 <h3>Prediction models</h3>
 <p>RNNs are a family of neural networks that are suitable for learning sequential data. Since our data consists of apps names and descriptions, we know for sure that this is a type of sequential data. 
 
@@ -73,6 +89,6 @@ Long Short-Term Memory (LSTM) networks are a type of recurrent neural network ca
 <h4>We have two models(two cases):</h4>
 1- In the first case we use the LSTM model to trainig the data 
 <p>We train the model using the app name and description only </p>
-
+<p> The first step we do, Cleaning the text. Back to the Data Preprocessing section</p>
 
 
