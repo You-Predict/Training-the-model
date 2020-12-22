@@ -53,10 +53,19 @@ You can open Data_Exploration file for more visualization about the data
 
 <h3>Data Preprocessing</h3>
 <p>Preprocessing is important into transitioning raw data into a more desirable format. Undergoing the preprocessing process can help to get more accuracy in the prediction</p>
+<p>In this section we will look at basic pre-processing of text data that must be done in order to make our data ready to be used as an input into our LSTM model</p>
 
 <h3>Prediction models</h3>
+<p>RNNs are a family of neural networks that are suitable for learning sequential data. Since our data consists of apps names and descriptions, we know for sure that this is a type of sequential data. 
+
+RNNs have been made to address this specific issue. LSTM is just a variant of RNN which has been observed to give better results in comparison to vanilla RNNs in a variety of problems.
+
+In a recurrent neural network, we store the output activations from one or more of the layers of the network. Often these are hidden later activations. Then, the next time we feed an input example to the network, we include the previously-stored outputs as additional inputs. </p>
+
+
 
 We build two models:
-1- The first one is 
+1- The first one is LSTM
+Long Short-Term Memory (LSTM) networks are a type of recurrent neural network capable of learning order dependence in sequence prediction problems.
 
 
