@@ -103,3 +103,7 @@ texts_to_sequences.
 
 
 <p> It is time to build the model and fit it on the training data using Keras:
+  As embedding requires the size of the vocabulary and the length of input sequences, we set vocabulary_size (MAX_SEQUENCE_LENGTH)equal to 500 and input_length at 50000 (max_words). Embedding size parameter specifies how many dimensions will be used to represent each word we take 100 as an input for this parameter(EMBEDDING_DIM)<p>
+  
+  <p>Next, we add 1 hidden LSTM layer with 100 memory cells. Potentially, adding more layers and cells can lead to better results.</p>
+  <p>Finally, we add the output layer with softmax activation function </p>
