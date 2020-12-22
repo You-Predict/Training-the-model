@@ -65,7 +65,7 @@ RNNs have been made to address this specific issue. LSTM is just a variant of RN
 
 We use LSTM model to train the data 
 
-Long Short-Term Memory (LSTM) networks are a type of recurrent neural network capable of learning order dependence in sequence prediction problems.
+Long Short-Term Memory (LSTM) networks are a type of recurrent neural network capable of learning order dependence in sequence prediction problems.And will help us to predict the expected rating for the app 
 
  </p>
 
