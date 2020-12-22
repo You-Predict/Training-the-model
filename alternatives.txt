@@ -1,25 +1,18 @@
-
-// stopwords
-nltk.download('stopwords') 
-
-
-// spaCy Lemmatization
-pip3 install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz 
-pip install spacy 
-!python3 -m spacy download en_core_web_sm 
-
+<h4>Here we illustrate the alternatives between the model when using different parameters and different cleaning text methods</h4>
 
 
 try 1:
+ Nimber of records = 100000
+
   text cleaning:
-    text = re.sub(r"http\S+", "", text)
-    text = text.lower() # lowercase text
-    text = REPLACE_BY_SPACE_RE.sub(' ', text) # replace REPLACE_BY_SPACE_RE symbols by space in text. substitute the matched string in REPLACE_BY_SPACE_RE with space.
-    text = BAD_SYMBOLS_RE.sub('', text) # remove symbols which are in BAD_SYMBOLS_RE from text. substitute the matched string in BAD_SYMBOLS_RE with nothing. 
-    text = re.sub('\d+', '', text)
-    text = ' '.join(word for word in text.split() if word not in STOPWORDS) # remove stopwors from text
-    text = ' '.join(word for word in text.split() if len(word) > 3) # remove stopwors from text 
-  parameters:
+  
+   text cleaning:
+  1- links_email_remover
+  2- clean_text
+  3- stopwords_remover
+  4- number_removedr
+  
+ parameters:
     MAX_NB_WORDS = 50000
     MAX_SEQUENCE_LENGTH = 250
     EMBEDDING_DIM = 100
@@ -33,6 +26,7 @@ try 1:
 ----------------------------------------------------------------------------------------------------
 
 try 2 :
+
  Nimber of records = 100000
  text cleaning:
   1- links_email_remover
@@ -225,12 +219,12 @@ Epoch 3/3
 
 On Test set
 Loss: 0.918
-Accuracy: 0.634 
+Accuracy: 0.584 
 
 
 
 try 7 :
- Nimber of records = 348733
+ Number of records = 348733
 
 text sequence contains : 
  title + genra + description + content rating 
@@ -251,6 +245,8 @@ text sequence contains :
   3- EMBEDDING_DIM = 100
   4- Epochs = 3
   5- Batchsize = 256
+  
+  
  
   
  results:
