@@ -134,4 +134,3 @@ We will use a bidirectional LSTM model and combine its output (text)with the met
 </li>
 </ol>
 
-
