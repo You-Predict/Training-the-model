@@ -265,6 +265,15 @@ Epoch 3/3
 On Test set
 loss: 1.1010 
 accuracy: 0.5362
+-------------------------------------------------------------------------------------
+
+Summry
+
+1- We notice that when we're training the model the accuracy increased when we use lemmatizer and stemming for the text and the number of unique words decrease also. Both of this increase the accuracy
+
+
+2- Change the batch size and the number of epoch does not affect on the accuracy in our case
+
 
 
 
