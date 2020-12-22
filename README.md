@@ -113,3 +113,9 @@ texts_to_sequences.
   <h6> Summry</h6>
   This model built to predict rating (based on attributes: app name, description, genre, and content rating) have accuracy on the test dataset 0.5362
 The accuracy not perfect due to the distribution of the data we have is skewed. As we notice before, most of the apps rating range between 4 - 5 and 1,2,3 rating have a few samples.
+
+---------------------------------------------------------------------------------------
+
+In the second model, we built the model based on app name and description attributes
+
+To increase the accuracy we need more samples that have 1,2,3 rating. So we merge the samples that have 1 and 2 rating to one class name 1 and the samples have 3 rating to 2 as a new class and merge 4,5 rating to 3 as a new class
