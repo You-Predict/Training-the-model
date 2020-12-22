@@ -107,3 +107,9 @@ texts_to_sequences.
   
   <p>Next, we add 1 hidden LSTM layer with 100 memory cells. Potentially, adding more layers and cells can lead to better results.</p>
   <p>Finally, we add the output layer with softmax activation function </p>
+  
+  <p>After training the model for 3 epochs, we achieve an accuracy of 0.5362</p>
+  
+  <h6> Summry</h6>
+  This model built to predict rating (based on attributes: app name, description, genre, and content rating) have accuracy on the test dataset 0.5362
+The accuracy not perfect due to the distribution of the data we have is skewed. As we notice before, most of the apps rating range between 4 - 5 and 1,2,3 rating have a few samples.
