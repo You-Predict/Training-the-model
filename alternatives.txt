@@ -1,4 +1,4 @@
-<h4>Here we illustrate the alternatives between the model when using different parameters and different cleaning text methods</h4>
+Here we illustrate the alternatives between the model when using different parameters and different cleaning text methods
 
 
 try 1:
