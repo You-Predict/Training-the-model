@@ -48,4 +48,6 @@ Predict Google Play Store app ratings.
 In my opinion, Before the user's downloading the app first we see the rating of the app if the app rating is more than 4 then we say that yeah this is a good category of the app then after we see another attribute of apps. Very few people see the reviews of the app.
 That's why the data distribution look's biased to apps that have a rating of more than 3.5</p>
 
+![rating](https://user-images.githubusercontent.com/47077167/102839396-186b1f00-4409-11eb-9e79-6e7feba85346.jpeg)
+
 
