@@ -90,5 +90,8 @@ Long Short-Term Memory (LSTM) networks are a type of recurrent neural network ca
 1- In the first case we use the LSTM model to trainig the data 
 <p>We train the model using the app name and description only </p>
 <p> The first step we do, Cleaning the text. Back to the Data Preprocessing section</p>
-
+<p> Text data has to be integer encoded before feeding it into the LSTM model. This can be easily achieved by using basic tools from the Keras library with only a few lines of code. Ttext should be tokenized by fitting Tokenizer class on the data set. As you can see I use “lower = True” argument to convert the text into lowercase to ensure consistency of the data. Afterwards, we should map our list of words (tokens) to a list of unique integers for each unique word using texts_to_sequences class.</p> 
+<p>As an example, below you can see how the original reviews turn into a sequence of integers after applying prepocessing, tokenize and 
+texts_to_sequences.
+  
 
