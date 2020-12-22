@@ -1,5 +1,5 @@
 # Predict Google Play Store App Ratings
-#Training Neural Network for Classification
+<h3>Training Neural Network for Classification</h3>
 
 <h4>Installation</h4>
 
@@ -14,7 +14,6 @@
 </ul>
 
 <h5>Download</h5>
-// stopwords
 nltk.download('stopwords') 
 
 <h5>Introduction</h5>
@@ -40,5 +39,5 @@ Predict Google Play Store app ratings.
 <li>Genre: An app can belong to multiple genres (apart from its main category). For eg, a musical family game will belong to Music, Game, Family genres.</li>
 </ul>
 
-<h4>Dependent Variables (Target varible)</h4>
-<li>Store_rating: Overall user rating of the app </li>
+<h4>Dependent Variables (Target Varible)</h4>
+  <li>Store_rating: Overall user rating of the app </li>
