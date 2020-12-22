@@ -49,5 +49,14 @@ In my opinion, Before the user's downloading the app first we see the rating of 
 That's why the data distribution look's biased to apps that have a rating of more than 3.5</p>
 
 ![rating](https://user-images.githubusercontent.com/47077167/102839396-186b1f00-4409-11eb-9e79-6e7feba85346.jpeg)
+You can open Data_Exploration file for more visualization about the data  
+
+<h3>Data Preprocessing</h3>
+<p>Preprocessing is important into transitioning raw data into a more desirable format. Undergoing the preprocessing process can help to get more accuracy in the prediction</p>
+
+<h3>Prediction models</h3>
+
+We build two models:
+1- The first one is 
 
 
