@@ -94,6 +94,7 @@ Long Short-Term Memory (LSTM) networks are a type of recurrent neural network ca
 <p>As an example, below you can see how the original reviews turn into a sequence of integers after applying prepocessing, tokenize and 
 texts_to_sequences.
   
+![tokenizer](https://user-images.githubusercontent.com/47077167/102868805-54bb7100-4443-11eb-911c-c02edd8e8789.jpeg)
 
 
 <p>Next, we use pad_sequences class on the list of integers to ensure that all reviews have the same length, which is a very important step for preparing data for RNN model. Applying this class would either shorten the reviews to 100 integers, or pad them with 0’s in case they are shorter.</p>
