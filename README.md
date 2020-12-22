@@ -9,8 +9,13 @@
 <li>scikit-learn</li>
 <li>tensorflow 2.1</li>
 <li>pandas </li>
-<li> nltk</li>
+<li>nltk</li>
+<li>spaCy</li> 
 </ul>
+
+<h3>Download</h3>
+// stopwords
+nltk.download('stopwords') 
 
 
 The ability to use services and products on the go has been a major leap in this century. Applications on the Google play store aim to do exactly that. Owing to worldwide accessibility and the ease of use, it has not only become the most popular application download destination but also a hotbed for competing services to attract and gain customers. This project aims to employ machine learning & visual analytics concepts to gain insights into how applications become successful and achieve high user ratings.
