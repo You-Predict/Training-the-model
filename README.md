@@ -58,14 +58,21 @@ You can open Data_Exploration file for more visualization about the data
 <h3>Prediction models</h3>
 <p>RNNs are a family of neural networks that are suitable for learning sequential data. Since our data consists of apps names and descriptions, we know for sure that this is a type of sequential data. 
 
+
+In a recurrent neural network, we store the output activations from one or more of the layers of the network. Often these are hidden later activations. Then, the next time we feed an input example to the network, we include the previously-stored outputs as additional inputs.
+
 RNNs have been made to address this specific issue. LSTM is just a variant of RNN which has been observed to give better results in comparison to vanilla RNNs in a variety of problems.
 
-In a recurrent neural network, we store the output activations from one or more of the layers of the network. Often these are hidden later activations. Then, the next time we feed an input example to the network, we include the previously-stored outputs as additional inputs. </p>
+We use LSTM model to train the data 
 
-
-
-We build two models:
-1- The first one is LSTM
 Long Short-Term Memory (LSTM) networks are a type of recurrent neural network capable of learning order dependence in sequence prediction problems.
+
+ </p>
+
+
+<h4>We have two models(two cases):</h4>
+1- In the first case we use the LSTM model to trainig the data 
+<p>We train the model using the app name and description only </p>
+
 
 
