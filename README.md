@@ -25,7 +25,7 @@ nltk.download('stopwords')
 <p>Visualizations indicated that the apps were distributed across 48 distinct genre and that the  "Entertainment"  genre has the most user's category was the most popular within this dataset. It also showed that the user ratings in the dataset were mostly between 3.0 to 5.0. In the latter rating's interval the distribution roughly followed a normal distribution with the peak at approximate ratings of 4.5. Correlations among some major parameters were also visualized for the data. After initial visualizing and data processing, the goal was to create a machine learning model to predict user ratings. Two different models were created, and they were trained on the available data. The model (working on app name and description only) predicted user ratings with the least error rates and better when compared to the other one(training the model taken the app name, description, genre, and content rating). Finally, the important parameters responsible for predicting, it's the App name and description.</p>
 
 
-<h4>Hypothesis<h4>
+<h4>Hypothesis</h4>
 Predict Google Play Store app ratings.
   
 <h4> Independent Variables</h4>
@@ -41,3 +41,11 @@ Predict Google Play Store app ratings.
 
 <h4>Dependent Variables (Target Varible)</h4>
   <li>Store_rating: Overall user rating of the app </li>
+  
+  
+<h4>Data Visualization</h4>
+<p>We visualize at the beginning the distribution of the “apps ratings”. We notice that “the fit” of the dataset rating does not follow -technically- a normal distribution with a mean of 4.08
+In my opinion, Before the user's downloading the app first we see the rating of the app if the app rating is more than 4 then we say that yeah this is a good category of the app then after we see another attribute of apps. Very few people see the reviews of the app.
+That's why the data distribution look's biased to apps that have a rating of more than 3.5</p>
+
+
