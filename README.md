@@ -119,3 +119,19 @@ The accuracy not perfect due to the distribution of the data we have is skewed. 
 In the second model, we built the model based on app name and description attributes
 
 To increase the accuracy we need more samples that have 1,2,3 rating. So we merge the samples that have 1 and 2 rating to one class name 1 and the samples have 3 rating to 2 as a new class and merge 4,5 rating to 3 as a new class
+
+
+-----------------------------------------------------------------------------------------
+
+<h4>Future plan to improve the accuracy value on testing and training </h4>
+
+
+<ol>
+<li>Build a layer for genre and a layer for content rating instead of merge it with the text sequence for (description and app name)
+</li>
+<li>Then we need to exploit the review's feature to merge it with the text sequence, this called  multiple input models.
+We will use a bidirectional LSTM model and combine its output (text)with the metadata(numerical). Therefore we define two input layers and treat them in separate models (nlp_input and meta_input). Our NLP data goes through the embedding transformation and the LSTM layer. The meta data is just used as it is, so we can just concatenate it with the lstm output (nlp_out). This combined vector is now classified in a dense layer and finally sigmoid in to the output neuron.
+</li>
+</ol>
+
+
